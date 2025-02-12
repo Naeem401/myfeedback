@@ -4,7 +4,7 @@ import { Search } from "lucide-react";
 
 function SearchBar() {
   return (
-    <div className="bg-white p-2 lg:p-4 shadow-md w-full">
+    <div className="bg-white p-2 lg:p-4 shadow-md w-full border-b border-gray-200">
       {/* Mobile View: Logo & Right Buttons Move Left, Search Box Moves Bottom */}
       <div className="flex flex-col md:flex-row items-center justify-between">
         
